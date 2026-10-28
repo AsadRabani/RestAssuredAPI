@@ -25,7 +25,7 @@ public class TestCase {
     			 .log().body() 
     			.statusCode(200)
     			.extract().response();
-    		System.out.print("The response is  "+response.jsonPath().getString("street"));
+    		System.out.print("response "+response.jsonPath().getString("street"));
     	
     }
 }
