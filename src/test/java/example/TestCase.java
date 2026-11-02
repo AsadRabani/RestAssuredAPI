@@ -30,6 +30,9 @@ public class TestCase {
 		System.out.print("response "+response.jsonPath().getString("street"));
     	
     }
+	public void getlastname(){
+System.out.print("response");
+    }
 }
 
 
