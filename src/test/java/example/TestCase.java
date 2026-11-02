@@ -22,13 +22,16 @@ public class TestCase {
     			.when()
     			.get("/users/1")
     			.then()
-    			 .log().body() 
+    			 .log().body()
     			.statusCode(200)
     			.extract().response();
     		System.out.print("response "+response.jsonPath().getString("street"));
 		System.out.print("response "+response.jsonPath().getString("street"));
 		System.out.print("response "+response.jsonPath().getString("street"));
-    	
+
+    }
+    public void getname(){
+
     }
 	public void getlastname(){
 System.out.print("response");
